@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(0, 7, 99)
+}
+
+.container {
+    width: 505px;
+    height: 505px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 30%;
+    margin-top: 80px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    border: 0.3px solid rgb(57, 212, 9);
+    cursor: pointer;
+}
+
+.control {
+    width: 235px;
+    height: 90px;
+    margin-left: 1060px;
+}
+
+button {
+    background-color: #FAFBFC;
+    border-radius: 6px;
+    color: #24292E;
+    cursor: pointer;
+    display: inline-block;
+    padding: 8px 16px;
+    position: relative;
+}
+
+button:hover {
+    background-color: rgb(181, 184, 9);
+}
+
+.divUp {    
+    display: flex;
+    justify-content: center;
+    margin-right: 14px;
+    margin-bottom: 3px;;
+}
+
+.arrowStyle {
+    width: 71px;
+    background-color: rgb(196, 199, 8);
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.green {
+    background-color: rgb(57, 212, 9);
+}
+
+.red-flag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(211, 12, 12);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.counter {
+    width: 220px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    float: right;
+    margin-right: 1250px;
+    margin-top: -500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.timer {
+    width: 220px;
+    height: 100px;
+    border: 1px solid rgb(255, 255, 255);
+    float: right;
+    margin-right: 263px;
+    margin-top: -500px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+#btn-start {
+    background-color: rgb(196, 199, 8);
+    color: white;
+    padding: 8px;
+    border-radius: 7px;
+    border: none;
+    font-size: 20px;
+    margin-left: 43.7%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+#btn-start:hover {
+    background-color: rgb(181, 184, 9)
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.titleCount {
+    margin-top: -385px;
+    margin-left: 67px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute;
+}
+
+.titleTimer {
+    margin-top: -385px;
+    margin-left: 1117px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    position: absolute
+}
+.titleResult {
+    margin-top: -305px;
+    margin-left: 67px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    position: absolute;
+}
+
+span {
+    color: rgb(57, 212, 9);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+h4 {
+    margin-top: -295px;
+    margin-left: 254px;
+    padding: 4px;
+    color: rgb(211, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    position: absolute;
+    cursor: pointer;
+
+}
+
+h4:hover {
+    border: 2px solid rgb(211, 12, 12);
+    border-radius: 24px;
+}
+
+
